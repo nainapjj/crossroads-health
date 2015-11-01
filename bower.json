@@ -1,0 +1,28 @@
+{
+  "name": "Crossroads Health Screening",
+  "homepage": "https://github.com/nainapjj/crossroads-health",
+  "authors": [
+    "Jeff Nainaparampil <jeff.nainap@gmail.com>"
+  ],
+  "description": "A website that allows patients to easily answer questions about their health, and, following the screening, administrators of the clinic can access, filter information, discover the conditions that cause major health issues in the Greater Cincinnati area.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "crossroads",
+    "health",
+    "screening",
+    "computer-based"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.3"
+  }
+}
