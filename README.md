@@ -25,6 +25,7 @@ Follow these steps in order to get started:
 	- cd to this directory
 	- Run: npm install
 	- Run: bower install
+
 ### Each Time You Make Changes
 - From the Terminal,
 	- Run: grunt
