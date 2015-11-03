@@ -26,6 +26,7 @@ Follow these steps in order to get started:
 	- Run: npm install
 	- Run: bower install
 
-### Each Time You Make Changes
+### Running grunt
 - From the Terminal,
 	- Run: grunt
+	- Now grunt will watch for changes and rebuild as you save. You can also have your browser auto-refresh on rebuild with the [Chrome LiveReload plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei).
