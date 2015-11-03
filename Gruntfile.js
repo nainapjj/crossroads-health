@@ -7,19 +7,31 @@ module.exports = function(grunt) {
         options: {
           style: 'expanded',
           loadPath: ['bower_components/foundation/scss'],
-          sourcemap: "none"
+          sourcemap: 'none'
         },
         files: {
           'stylesheets/app.css': 'scss/app.scss'
         }
       }
+    },
+
+    watch: {
+      css: {
+        files: ['scss/*.scss'],
+        tasks: ['sass'],
+        options: {
+          livereload: true
+        }
+      }
     }
   });
 
-  // Load the plugin that provides the "sass" task.
+  // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
-  // Default task(s).
-  grunt.registerTask('default', ['sass']);
+  // Register tasks
+  grunt.registerTask('default', ['sass', 'watch']);
+  grunt.registerTask('css', ['sass']);
 
 };
