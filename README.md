@@ -6,7 +6,7 @@ Using the questions developed by HealthBegins, a California’s based company th
 
 ## Technical Side
 We want to use the following technologies for our website stack:
-- Zurb Foundation
+- Zurb Foundation 5
 - Grunt and Bower
 - Node.js
 - MariaDB

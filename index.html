@@ -3,133 +3,118 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>Health Screening Tool</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
-  <body>       
 
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="nav-bar right">
-           <ul class="button-group">
-             <li><a href="#" class="button">Link 1</a></li>
-             <li><a href="#" class="button">Link 2</a></li>
-             <li><a href="#" class="button">Link 3</a></li>
-             <li><a href="#" class="button">Link 4</a></li>
-            </ul>
+<body>       
+<!-- Top Bar -->
+<nav class="top-bar" id="example-menu">
+  <ul class="title-area">
+    <li class="name">
+      <img width="80" src="images/crossroad-home-logo.png"/>
+      Health Screening Tool
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+</nav>
+
+<!-- Main Content -->     
+<div class="row">
+  <div class="small-12 columns" role="content">
+    <h2>Questions</h2>
+    <p>Please answer these questions.</p>
+    <form>
+      <div class="question">
+        <div class="question-number">1</div>
+        <p>What's your name?</p>
+        <div class="row">
+          <div class="small-6 columns">
+            <label>First Name
+              <input type="text" placeholder="Enter First Name" />
+            </label>
           </div>
-          <h1>Blog <small>This is my blog. It's awesome.</small></h1>
-          <hr/>
+          <div class="small-6 columns">
+            <label>Last Name
+              <input type="text" placeholder="Enter Last Name" />
+            </label>
+          </div>
         </div>
       </div>
-     
-       
-     
-     
-       
-     
-      <div class="row">
-     
-         
-        <div class="large-9 columns" role="content">
-     
-          <article>
-     
-            <h3><a href="#">Blog Post Title</a></h3>
-            <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
-     
-            <div class="row">
-              <div class="large-6 columns">
-                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
-                <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-              </div>
-              <div class="large-6 columns">
-                <img src="http://placehold.it/400x240&text=[img]"/>
-              </div>
-            </div>
-     
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-     
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-     
-          </article>
-     
-          <hr/>
-     
-          <article>
-     
-            <h3><a href="#">Blog Post Title</a></h3>
-            <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
-     
-            <div class="row">
-              <div class="large-6 columns">
-                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
-                <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-              </div>
-              <div class="large-6 columns">
-                <img src="http://placehold.it/400x240&text=[img]"/>
-              </div>
-            </div>
-     
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-     
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-     
-          </article>
-     
-        </div>
-     
-         
-     
-     
-         
-     
-        <aside class="large-3 columns">
-     
-          <h5>Categories</h5>
-          <ul class="side-nav">
-            <li><a href="#">News</a></li>
-            <li><a href="#">Code</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Fun</a></li>
-            <li><a href="#">Weasels</a></li>
-          </ul>
-     
-          <div class="panel">
-            <h5>Featured</h5>
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
-            <a href="#">Read More →</a>
+      <div class="question">
+        <div class="question-number">2</div>
+        <p>What's your date of birth?</p>
+        <div class="row">
+          <div class="small-4 columns">
+            <label>Month
+                <select>
+                  <option value="jan">January</option>
+                  <option value="feb">February</option>
+                  <option value="mar">March</option>
+                  <option value="apr">April</option>
+                </select>
+            </label>
           </div>
-     
-        </aside>
-     
-         
+          <div class="small-4 columns">
+            <label>Day
+                <select>
+                  <option value="day1">1</option>
+                  <option value="day2">2</option>
+                  <option value="day3">3</option>
+                  <option value="day4">4</option>
+                </select>
+            </label>
+          </div>
+          <div class="small-4 columns">
+            <label>Year
+                <select>
+                  <option value="1950">1950</option>
+                  <option value="1951">1951</option>
+                  <option value="1952">1952</option>
+                  <option value="1953">1953</option>
+                </select>
+            </label>
+          </div>
+        </div>
       </div>
-     
-       
-     
-     
-       
-     
-      <footer class="row">
-        <div class="large-12 columns">
-          <hr/>
-          <div class="row">
-            <div class="large-6 columns">
-              <p>© Copyright no one at all. Go to town.</p>
-            </div>
-            <div class="large-6 columns">
-              <ul class="inline-list right">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="row full-width">
+    <div class="small-12 medium-3 large-4 columns">
+      <i class="fi-laptop"></i>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores alias ea sunt facilis impedit fuga dignissimos illo quaerat iure in nobis id quos, eaque nostrum! Unde, voluptates suscipit repudiandae!</p>
+    </div>
+    <div class="small-12 medium-3 large-4 columns">
+      <i class="fi-html5"></i>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!</p>
+    </div>
+    <div class="small-6 medium-3 large-2 columns">
+      <h4>Work With Me</h4>
+      <ul class="footer-links">
+        <li><a href="#">What I Do</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ's</a></li>
+      <ul>
+    </div>
+    <div class="small-6 medium-3 large-2 columns">
+      <h4>Follow Me</h4>
+      <ul class="footer-links">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Dribbble</a></li>
+      <ul>
+    </div>
+  </div>
+</footer>
     
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
