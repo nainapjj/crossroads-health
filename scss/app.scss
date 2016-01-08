@@ -42,7 +42,15 @@
 .top-bar {
     height: 100px;
     padding-top: 10px;
+    background-color: gray;
+    border-bottom: thin solid gray;
+    margin-bottom: 10px;
+    
     color: white;
+
+    .toggle-topbar.menu-icon {
+      margin-top: 0;
+    }
 }
 
 .question {
